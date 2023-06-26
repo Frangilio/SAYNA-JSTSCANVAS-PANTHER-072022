@@ -105,11 +105,33 @@ p {
   margin-left: 150px;
   -moz-column-gap: 20px;
        column-gap: 20px;
-  height: 250px;
+  height: 235px;
+  position: relative;
+}
+#carrousel .fa-solid {
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  top: 40%;
+  background-color: #07338C;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+}
+#carrousel #next {
+  right: 25px;
+}
+#carrousel #next:hover {
+  filter: drop-shadow(0 0 20px #FFFFFF);
 }
 #carrousel .image-carrousel-active {
-  margin-top: -35px;
+  margin-top: -50px;
   margin-left: 30px;
+}
+#carrousel .image-carrousel-active img {
+  max-width: 386px;
+  max-height: 446px;
 }
 #carrousel .description {
   margin-top: 30px;

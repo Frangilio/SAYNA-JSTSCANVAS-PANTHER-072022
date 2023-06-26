@@ -41,10 +41,33 @@
     margin-bottom: 20px;
     margin-left: 150px;
     column-gap: 20px;
-    height: 250px;
+    height: 235px;
+    position: relative;
+    .fa-solid {
+        position: absolute;
+        height: 36px;
+        width: 36px;
+        top: 40%;
+        background-color: $chinese-porcelain;
+        color: white;
+        text-align: center;
+        line-height: 36px;
+        border-radius: 50%;
+    }
+    #next {
+        right: 25px;
+        &:hover {
+            filter: drop-shadow(0 0 20px  $white-color);
+        }
+    }
     .image-carrousel-active {
-        margin-top: -35px;
+        margin-top: -50px;
         margin-left: 30px;
+        img {
+            max-width: 386px;
+            max-height: 446px;
+        }
+
     }
     .description {
         margin-top: 30px;

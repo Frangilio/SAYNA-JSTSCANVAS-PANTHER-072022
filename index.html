@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Accueil</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link rel="stylesheet" href="./assets/css/main.css">
         <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
     </head>
@@ -64,11 +67,11 @@
         <!-- Section Carrousel -->
             <section id="carrousel">
                 <div class="image-carrousel-active">
-                    <img class="image-carousel" src="./assets/accueil/Pantherhome2.png" alt="">
+                    <img class="image-carousel img0" src="./assets/1_Landing_page/Pantherhome_slider_1.png" alt="">
                 </div>
                 <div class="description">
-                    <h2>KILLMONGER</h2>
-                    <p>La sauvagerie de N'Jadaka alors qu'il servait dans une
+                    <h2 id="t0">KILLMONGER</h2>
+                    <p id="p0">La sauvagerie de N'Jadaka alors qu'il servait dans une
                         unité d'opérations noires de l'armée américaine lui a
                         valu le surnom de Killmonger. D’origine Wakandaise,
                         et se sentant abandoné par sa nation, il cherche à
@@ -77,20 +80,21 @@
                     <a class="voir-plus" href="">Voir plus > </a>
                 </div>
                 <div class="image-carrousel">
-                    <img class="image-carousel" src="./assets/accueil/Pantherhome3.png" alt="">
+                    <img class="image-carousel img1" src="./assets/1_Landing_page/Pantherhome_slider_2.png" alt="">
                 </div>
                 <div class="description">
-                    <h2>OKOYE</h2>
-                    <p>Okoye est le général des Dora Milaje (groupe d’élite
+                    <h2 id="t1">OKOYE</h2>
+                    <p id="p1">Okoye est le général des Dora Milaje (groupe d’élite
                         de femmes guerrières) et le chef des forces armées et
                         des renseignements wakandais. Témoin du
                         couronnement de T'Challa, elle se joint à lui dans de
                         nombreuses aventures.</p>
                     <a class="voir-plus" href="">Voir plus > </a>
                 </div>
-                <div>
-                    <img class="image-carousel" src="./assets/accueil/Pantherhome4.png" alt="">
+                <div class="item">
+                    <img class="image-carousel img2" src="./assets/1_Landing_page/Pantherhome_slider_3.png" alt="">
                 </div>
+                <i class="fa-sharp fa-solid fa-chevron-right btn" id="next"></i>
             </section>
 
             <!-- Section article -->
@@ -257,5 +261,11 @@
             </div>
     
         </footer>
+<!--         <script>
+            function myFunction() {
+                console.log("clicked");
+                }
+        </script> -->
+        <script src="./assets/js/carousel.js" defer></script>
     </body>
 </html>
