@@ -382,18 +382,25 @@ p {
 
 /* Design Defi */
 #alphabet {
-  width: 80%;
-  margin: 0 auto;
+  width: 70%;
+  margin-left: 250px;
 }
 #alphabet h2 {
-  font-family: "Wakanda Forever";
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   color: #9E91B7;
-  letter-spacing: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 #alphabet .trans {
   display: flex;
   flex-direction: row;
+}
+#alphabet .trans .transcription {
+  margin-right: 200px;
+  width: 40%;
+}
+#alphabet .trans #enonce {
+  text-align: justify;
 }
 #alphabet .trans .paragraphe-forever {
   padding-top: 40px;
@@ -403,14 +410,24 @@ p {
   font-family: "Wakanda Forever";
   font-size: 14px;
 }
+#alphabet .trans .enigme-wakanda {
+  font-family: "Wakanda Forever";
+  font-size: 18px;
+  color: #9E91B7;
+  letter-spacing: 10px;
+}
+#alphabet .trans #textQuizz {
+  padding: 20px 0;
+}
 #alphabet .trans .formulaire-texte {
   padding: 20px 0;
 }
 #alphabet .trans input[type=text] {
+  color: #FFFFFF;
   border-radius: 38px;
   border: solid 1px #FFFFFF;
   background-color: transparent;
-  width: 520px;
+  width: 400px;
   height: 56px;
   padding-left: 20px;
   margin-bottom: 10px;
@@ -418,7 +435,7 @@ p {
 #alphabet .trans input[type=submit] {
   background-color: #F2CEF2;
   margin-top: 50px;
-  margin-left: 175px;
+  margin-left: 100px;
   width: 174px;
   height: 54px;
   border-radius: 38px;
@@ -437,17 +454,19 @@ p {
 }
 #alphabet .trans .image-fond-trans {
   position: relative;
-  top: -200px;
+  top: -375px;
+  left: -60px;
 }
 #alphabet .trans .image-fond-trans img {
-  width: 100%;
+  max-width: 130%;
+  max-height: 130%;
 }
 #alphabet .trans .p1 {
   padding: 25px 50px;
   text-align: center;
 }
 #alphabet .trans .p2 {
-  text-align: center;
+  text-align: justify;
 }
 
 /* Design scroll */
